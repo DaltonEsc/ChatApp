@@ -4,10 +4,14 @@ body{
     display: flex;
     justify-content: center;
 }
-#message-container{
-    width:80%;
-    max-width: 1200px;
+.scrollingcontainer{
+    overflow: auto;
+    width:100%;
+    height:80vh;
+    margin-left:10%;
+    margin-right:20%;
 }
+
 #message-container div{
     background-color:#ccc;
     padding:5px;
@@ -17,16 +21,16 @@ body{
 }
 #send-container{
     width:100vw;
-    position:fixed;
-    bottom:5px;
+    position: fixed;
+    bottom:8%;
     left:0px;
 }
 #send-container input{
-    width: 80%;
+    width: 65%;
     height:10vh;
     margin-left: 10%;
 }
 #send-container button{
-    height:12.5vh;
+    height:10vh;
 
 }
